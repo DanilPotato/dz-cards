@@ -1,0 +1,77 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+.conteiner{
+  max-width: 910px;
+  margin: 0 auto;
+}
+.header-text {
+  padding-left: 100px;
+}
+.header-text:hover {
+  color:#03A9F4;
+  cursor: pointer;
+}
+.header {
+  padding-top: 71px;
+  margin: auto;
+  width: 855px;
+}
+.card-grit{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 910px;
+  margin: 0 auto;
+  justify-content: space-between;
+  row-gap: 130px;
+}
+.card {
+  padding-top: 92px;
+  padding-bottom: 62px;
+}
+.card-img {
+  width: 420px;
+  height: 280px;
+}
+.card-subtitle {
+  font-family: 'Ubuntu', sans-serif;
+  width: 64px;
+  height: 16px;
+  display: block;
+  padding-top: 62px;
+  color: #B4AD9E;
+}
+.card-title {
+  width: 408px;
+  height: 40px;
+  padding-top: 32px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #626262;
+}
+.card-text {
+  width: 420px;
+  height: 76px;
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 30px;
+}
+.btn {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid #626262;
+  width: 165px;
+  height: 60px;
+  display: block;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 66px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #626262;
+  color: #fff;
+}
